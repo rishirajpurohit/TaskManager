@@ -21,7 +21,7 @@ import in.rishirajpurohit.android.taskmanager.POJO.Task;
 public class TasksDbHelper extends SQLiteOpenHelper {
 
     private static final String DATABASE_NAME = "Tasks.db";
-    private static final int DATABASE_VERSION = 3;
+    private static final int DATABASE_VERSION = 4;
 
     //Query : Table create
     private static final String TABLE_NAME = "Tasks";
